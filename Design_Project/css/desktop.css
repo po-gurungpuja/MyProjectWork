@@ -1,0 +1,600 @@
+@media screen and (min-width: 992px) {
+    .header-wrapper {
+        padding: 0 20px;
+        max-width: 1140px;
+    }
+    .header-content-wrapper {        
+        padding: 0 40px;        
+        max-width: 1140px;
+    }
+    .header-logo {     
+        width: 30%;
+        margin-top: 20px;            
+    }
+    .header-logo img {
+        display: block;       
+        width: 200px;
+        height: 78px;
+        float: left;
+    }
+    hr {
+        display: none;
+    }
+    .menu-dropdown {
+        width:70%;
+        display: block;
+        margin-top: 49px;      
+    }
+    .nav-dropdown-content {
+        margin-left:40px;        
+    }
+    .nav-dropdown-content li {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+    }
+
+
+    .content-img {
+        height: 894px;
+    }
+
+    .content-screen {        
+        height: 850px;        
+    }
+    
+    
+    .header-home-content {
+        padding: 90px 0 0 0;
+    }
+    .header-home-content h1 {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 78px;        
+        letter-spacing: 0.7px;
+    }
+
+    .header-home-content p {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;       
+        letter-spacing: 0.2px;
+    }
+
+    .home-btn {  
+        margin: 60px auto 0;
+        padding: 100px 0 0 0;
+    }
+
+    .home-btn .home-btn-left {
+        border-radius: 85px;    
+        padding: 16px 46px 16px 46px;        
+        font-size: 18px;  
+    }
+
+    .home-btn .home-btn-right {
+        border-radius: 85px;    
+        padding: 16px 46px 16px 46px;        
+        font-size: 18px;  
+    }
+
+    
+
+    /*...........................................  JUST TYPE.............................................................*/
+    .just-type-wrapper  {    
+        padding: 0 40px;  
+        height: 350px;  
+    }
+
+    .just-type-container {
+        margin: 60px auto 20px;
+    }
+
+    .just-type-container span{
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+    }
+    .just-type-container h2 {
+        margin-top: 27px;
+        font-size: 56px;
+        line-height: 65px;
+        letter-spacing: 0.2px;
+    }
+    .just-type-container p {
+        margin-top: 27px;        
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.4px;
+            
+    } 
+
+    .just-type-btn .btn-download-left {        
+        font-size: 18px; 
+        line-height: 20px; 
+        padding: 16px 50px;  
+     }
+     
+    .just-type-btn .btn-walkthrough-right {
+        padding: 16px 30px;             
+        font-size: 18px; 
+        line-height: 20px;
+    }  
+
+    /*...........................................  OPEN-TYPE FEATURES.......................................................*/
+    
+    .opentype-features {
+        height: 580px;
+        padding-top: 80px;
+    }
+    .blue-frame  {
+        height: 490px;
+    }
+    
+    .opentype-container {
+        margin: 20px auto;
+        padding: 0 40px;    
+        width: 100%;
+        max-width: 1140px;
+    }
+    .opentype-content {    
+       position: unset;
+       width: 45%; 
+       height: 400px;     
+    }    
+    .opentype-content h3 {
+        text-align: left;    
+        color: #20262A;
+        font-weight: 450;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.1px;
+        margin-top: 80px;
+        padding-top: 30px;
+    }
+    .opentype-content p {
+        margin-top: 27px;
+        text-align: justify;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        font-style: normal;
+    }    
+    
+    .opentype-img {
+        display: block;        
+        position: unset;
+        width: 45%;
+    }
+    .opentype-img img {
+        height: 410px;
+        width: 590px;
+        margin-top: 30px;
+    }  
+
+    /*...........................................  VARIABLE-FONTS FEATURES.......................................................*/
+    
+    .variable-fonts-container {        
+        margin: 20px auto;
+        padding: 0 40px;    
+        width: 100%;
+        max-width: 1140px;
+    }
+
+    .variable-fonts  {
+        height: 600px;
+        padding-top: 80px;
+    }
+    .yellow-frame {        
+        height: 490px;
+    }
+
+    .variable-fonts-img {
+        display: block;
+        width: 45%;
+    }
+
+    .variable-fonts-img img {
+        height: 410px;
+        width: 590px; 
+        max-width: 50%;
+        margin-top: 30px;
+    }
+
+    .variable-fonts-content {
+        position: unset;
+        width: 45%; 
+        height: 400px;
+         
+    }
+
+    .variable-fonts-content h3 {
+        text-align: left;
+        font-weight: 450;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.1px;
+        margin-top: 80px;
+        padding-top: 30px;
+    }
+    .variable-fonts-content p { 
+        margin-top: 27px;
+        text-align: justify;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        font-style: normal;
+    }
+    
+/*.....................................................RETHINK.......................................................*/
+
+    .rethink {
+        margin: 60px 0 60px 0;
+        height: 300px;
+    }
+    .rethink-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        height: 200px;
+        max-width: 1140px;
+    }
+    .rethink-content {
+        text-align: center;
+    }
+    .rethink-content h2 {
+        margin-top: 27px;
+        font-size: 56px;
+        line-height: 65px;
+        letter-spacing: 0.2px;
+    }
+    .rethink-content p {
+        margin-top: 27px;
+        font-size: 16px;
+        line-height: 25px;
+        color: #5C5C5C;
+        font-style: normal;
+        font-size: 450;
+    }
+    
+      .progress-text{
+        width: 90%; 
+        margin: 0 auto;
+      }
+      .progress-text span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;    
+        color: #505D6F;
+      }
+      .progress-btn {
+         margin: 72px auto 20px auto;
+         width: 100%;
+         text-align: center;
+      }
+    
+      .progress-btn .btn-primary{
+        
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.1px;
+        padding: 15px 30px;
+    }
+    
+/*........................................TESTIMONIALS.......................................................*/
+
+    .testimonals {     
+        height: 799px;      
+    }
+    .testimonal-bg-image {      
+        position: relative; 
+        height: 600px;
+    
+    }
+    .testimonal-bg-image img {
+        position: absolute;
+        width: 100%;
+        height: 700px;
+    }
+    .testimonals-container {
+        margin: 60px auto;
+        padding: 0 40px;
+        align-items: center;
+        max-width: 1140px;
+    }
+        
+    .testimonals-container h3 {
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+    }
+    .testimonals-container img {
+        position:absolute;
+        top: 25%;
+        left: 50%;
+        transform:translate(-50%,-50%); 
+        width: 140px;
+        height: 90px;
+    }
+    .testimonals-container p {
+        margin: 180px 100px 10px 100px;
+        font-style: normal;
+            font-weight: 450;
+            font-size: 20px;
+            line-height: 30px;   
+            text-align: center;
+            letter-spacing: 0.2px;    
+            color: #5C5C5C;
+
+    }
+    .testimonials-clients {    
+        width: 50%;
+        height: 60px;
+        margin: 50px auto;
+        position: relative;
+    }
+    .testimonials-clients img {
+        float: left;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 45%;
+        left: 37%;
+        margin-right: 7px;
+    }
+    .testimonials-clients span {
+        float: left;
+        height: 50px;
+        width: 100px;
+        position: absolute;
+        top: 12%;
+        left: 45%;
+        font-size: 16px;
+    }
+    
+
+    .testimonials-btn .btn-secondary {        
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.1px;        
+        padding: 15px 30px;
+    }
+
+/*...................................................PRICING.......................................................*/
+    .pricing {        
+        height: 500px;
+    }
+    
+    .pricing-container {
+        margin: 20px auto;
+        padding: 0 80px;
+        width: 100%;
+        max-width: 1140px;
+    }
+    .pricing-content {
+        width: 45%;
+        float: left;
+        margin-top: 40px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    .pricing-content span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 35px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+
+    }
+    .pricing-content p {
+        color: #FFFFFF;
+        text-align: left;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        margin-top: 40px;
+    }
+    .pricing-info {
+        width: 35%;
+        float: right;
+        margin-top: 80px;    
+        text-align: left;
+    }
+    .pricing-info .here {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: white;
+        text-align: left;
+    }
+    
+    .pricing-info .para {
+        margin-top: 30px;
+        color: #FFFFFF;
+        text-align: left;
+        font-style: normal;
+        font-weight: lighter;
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+    }
+    .pricing-info .para br {
+        display: block;
+    }
+    .pricing-btn {
+        margin: 30px auto 20px auto;
+        width: 100%;
+        text-align: left;
+    } 
+
+    .pricing-btn .btn-primary{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    background: #00B6F0;
+    border-radius: 50px;
+    border: 0;
+    padding: 16px 48px;
+    }
+
+
+/*...................................................ERGONOMICS.......................................................*/
+
+    .ergonomic {
+        height: 450px;
+        background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
+    }
+    .ergonomic-container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+    .ergonomic-content {
+        padding: 0;
+        width: 45%;
+        float: left;
+        margin-top: 70px;
+    }
+    .ergonomic-content span {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: justify;
+        letter-spacing: 0.2px;
+        color: #20262A;
+    }
+    .ergonomic-info {
+        padding: 0;
+        width: 45%;
+        float: right;
+        margin-top: 70px;
+    }
+
+    .ergonomic-info .para_text {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 19px;
+        line-height: 30px;   
+        text-align: left;
+        letter-spacing: 0.2px;  
+        color: #5C5C5C;   
+    }
+    .ergonomic-info .para {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 19px;
+        line-height: 30px;  
+        margin-top: 15px;
+        letter-spacing: 0.2px;
+        text-align: left;   
+        color: #5C5C5C;    
+    }
+    .ergonomic-btn {
+        margin: 50px auto 20px auto;
+    }
+    .ergonomic-btn .btn-primary {
+        
+        padding: 16px 40px;
+        font-size: 18px;
+        line-height: 20px;    
+    }
+    .ergonomic-btn .btn-primary:hover {
+        background-color: white;
+        color: #00B6F0;
+    border: 1px solid #00B6F0;
+    }
+
+/* ............................FOOTER............................................................................... */
+    .footer hr {
+        display: none;
+    }
+    .footer-container {
+        margin: 0 auto;
+        padding: 0 40px;   
+        max-width: 1140px; 
+    }
+    .footer-logo {     
+        width: 30%;
+        float: left; 
+            
+    }
+    .footer-logo img {
+        display: block;       
+        width: 200px;
+        height: 90px;
+        margin-bottom: 30px;
+    }
+    .footer-menu {
+        width: 70%;
+        display: block;  
+        position: relative;      
+    }
+    .footer-nav-dropdown {        
+        display: block; 
+        width: 50%;
+        margin-top: 20px; 
+        position: absolute;
+        margin-left: 50px;   
+    }
+    .footer-nav-dropdown ul {
+        display: inline;
+    }
+
+    .footer-nav-dropdown li {
+        list-style: none;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        margin: 0;
+        padding: 0;
+        display: inline-block;  
+    }
+    .footer-nav-dropdown a {
+        color: black;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+        float: left; 
+    }
+    .footer-nav-dropdown a:hover {        
+        color: #00B6F0;
+    }
+    .footer-social-dropdown a:hover {
+        opacity: 0.5;
+    }
+    .footer-social {
+        display: block;
+        width: 40%;
+        position: absolute;
+        right: 0;
+        text-align: right;     
+    }
+    .footer-social-dropdown li{
+        display: inline-block;
+        list-style: none;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .footer-social-dropdown a {
+        text-decoration: none;
+        padding: 0;
+    }
+    .footer-social-dropdown img {
+        height: 35px;
+        width:35px;
+    }
+}
