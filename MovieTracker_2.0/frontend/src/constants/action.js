@@ -1,0 +1,8 @@
+export const SEARCH_MOVIE = "searchMovie"
+export const GET_MOVIES_PENDING = "getMoviesPending"
+export const GET_MORE_MOVIES_PENDING = "getMoreMoviesPending"
+export const GET_MOVIES_SUCCESS = "getMoviesSuccess"
+export const GET_MORE_MOVIES_SUCCESS = "getMoreMovies"
+export const ERROR_FETCHING_MOVIES = "errorFetchingMovies"
+export const GET_MOVIE_SUCCESS = "getMovieSuccess"
+export const ERROR_FETCHING_MOVIE = "errorFetchingMovie"

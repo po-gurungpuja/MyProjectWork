@@ -1,0 +1,133 @@
+/* .searchBox {
+    background: linear-gradient(to bottom, rgba(56, 63, 70, 0.5), #4f71a3);
+} */
+.wrapper{
+	position: relative;
+    margin: 0 auto;
+    width: 100%;
+    padding: 15px;    
+    height: 150px;
+    background: rgba(235, 238, 240, 0.253);
+    border-radius: 5px;
+}
+
+
+.heading {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.search {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.input{
+    
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.searchbtn {
+    
+    display: none;
+}
+
+
+
+@media (min-width: 576px) {
+    .heading {        
+        font-size: 16px;
+    }
+    
+    .wrapper{
+        height: 170px;
+    }
+
+    
+}
+
+@media (min-width: 768px) {
+    .heading {        
+        font-size: 18px;
+    }
+
+    .search {       
+        left: 45%;
+        width: 80%;
+    }
+    
+    .searchbtn {
+        display: block;
+        background: #5b96f0;
+        width: 10%;
+        border: 0;
+        border-radius: 5px;
+        position: absolute;
+        top: 0%;
+        left: 101%;
+        height: 46px;
+        cursor: pointer;
+    }
+    
+    .searchbtn .fas{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .searchbtn:hover {
+        background-color: #acc8f1;
+    }
+    
+    .wrapper{
+        max-width: 700px;
+        
+    }
+
+    .searchBox {
+        padding-top: 20px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .wrapper{
+        max-width: 991px;
+        
+    }
+    .heading {        
+        font-size: 20px;
+        
+    }
+    .searchBox {
+        padding-top: 30px;
+    }
+    .input {
+        font-size: 18px;
+    }
+    .searchbtn {
+        height: 50.8px;
+    }
+    .search {
+        
+        top: 65%;
+        
+    }
+    
+}
