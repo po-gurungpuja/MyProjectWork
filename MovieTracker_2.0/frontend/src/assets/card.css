@@ -33,7 +33,7 @@
     top: 0;
     left: 0;
     height: 250px;
-    /* object-fit: contain; */
+    
     padding: 5px;
 }
 
@@ -48,15 +48,15 @@
 
 
 .card_info .fas {    
-    color: white;
+    color: red;
     font-size: 20px;
     padding: 0 10px 0 0;
     
 }
 
-.card_info .fas:hover {
+/* .card_info .fas:hover {
     color: gray;
-}
+} */
 
 .card_info .far {    
     color: white;
@@ -64,9 +64,9 @@
     padding: 0 10px 0 0;
 }
 
-.card_info .far:hover { 
+/* .card_info .far:hover { 
     color: gray;
-}
+} */
 
 .card_bottom {
     position: relative;
@@ -190,18 +190,11 @@
         padding: 0 15px 0 0;
         
     }
-
-    .card_info .fas:hover {
-        color:   #282c34;
-    }
+    
     .card_info .far {    
         padding: 0 15px 0 0;
         
-    }
-
-    .card_info .far:hover {
-        color:   #282c34;
-    }
+    }    
 
     .card_bottom p {
         font-size: 18px;

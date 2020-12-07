@@ -44,8 +44,7 @@ export const searchMovies = (pageNumber, movieName) => {
   return async (dispatch) => {
       try {
           dispatch(fetchMoreMoviesPending());
-          const data = await searchMovieByName(pageNumber, movieName);
-          
+          const data = await searchMovieByName(pageNumber, movieName);          
          
           dispatch(fetchMoreMoviesSuccess(data));
           dispatch(fetchMoviesError(null));

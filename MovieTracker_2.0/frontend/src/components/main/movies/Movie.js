@@ -1,12 +1,31 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { IMGURL } from '../../../APIKEY';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { favoriteActions } from '../../../actions';
 
 
 export class Movie extends Component {
+
+    toggleFavorites = () => {
+        const { info, favoriteMovies, addFavoriteMovie, removeFavoriteMovie } = this.props;
+
+        const movieIndex = favoriteMovies.findIndex(
+            (Movie) => Movie.id === info.id);
+
+        if(movieIndex > -1) {
+            removeFavoriteMovie(info.id);
+        }
+        else {
+            addFavoriteMovie(info);
+        }
+    }
     
     render() {
         const { title, poster_path, id } = this.props.info;
+        const movieIndex = this.props.favoriteMovies.findIndex((Movie) => Movie.id === id);
+
         return (
             <Fragment>
                 
@@ -14,13 +33,12 @@ export class Movie extends Component {
                         <div className="card_top">
                             <img src={ poster_path == null ? null : `${IMGURL}${poster_path} `} alt="Movie Poster"/>
                         
-                            <div className="card_info">
-                            
-                                <i className="fas fa-plus"></i>
-                                {/* <i className="fas fa-check-circle"></i>  */}
-                            
-                                <i className="far fa-heart"></i>
-                                {/* <i className="fas fa-heart"></i>  */}
+                            <div className="card_info">                           
+                                {/* <i className="fas fa-plus"></i> */}
+                                {/* <i className="fas fa-check-circle"></i>  */}               
+                                
+                                <i className={` ${ movieIndex > -1 ? "fas" : "far"}  fa-heart `} onClick={ this.toggleFavorites }></i>
+                                
                             </div>
                         </div> 
                         <div className="card_bottom">
@@ -33,4 +51,14 @@ export class Movie extends Component {
     }
 }
 
-export default Movie;
+const mapStateToProps = ({ favoriteMoviesReducer }) => {
+    return { favoriteMovies: favoriteMoviesReducer.favoriteMovies }
+}
+
+const mapDispatchToProps = (dispatch) => {
+    return { 
+        ...bindActionCreators({...favoriteActions}, dispatch),
+     };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Movie);

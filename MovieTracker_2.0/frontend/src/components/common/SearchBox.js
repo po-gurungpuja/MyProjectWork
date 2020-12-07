@@ -11,8 +11,7 @@ class SearchBox extends Component {
 
     onSubmit = e => {
         e.preventDefault();        
-        this.props.setSearchText(this.props.text)
-        
+        this.props.setSearchText(this.props.text);        
     }
     
     render() {
