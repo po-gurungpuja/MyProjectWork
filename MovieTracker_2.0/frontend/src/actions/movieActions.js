@@ -1,4 +1,5 @@
 import { movieServices, searchMovieByName, movieServiceById } from '../services/movieServices';
+import * as toast from '../utils/toast';
 import {    
     SEARCH_MOVIE,
     GET_MOVIES_PENDING,
@@ -18,8 +19,9 @@ export const fetchMovies = () => {
             dispatch(fetchMoviesSuccess(data));
         }
         catch(error) {
-            const errorMsg = error.message;
+            const errorMsg = error.response.data.status_message;
             dispatch(fetchMoviesError(errorMsg));
+            toast.error({ title: "Oops", message: errorMsg }) 
         }       
     };
 };
@@ -36,6 +38,7 @@ export const fetchMoreMovies = (pageNumber, movieName) => {
         catch(error) {
             const errorMsg = error.message;
             dispatch(fetchMoviesError(errorMsg));
+            toast.error({ title: "Oops", message: errorMsg }) 
         }
     }
 };
@@ -52,6 +55,7 @@ export const searchMovies = (pageNumber, movieName) => {
       catch(error) {
           const errorMsg = error.message;
           dispatch(fetchMoviesError(errorMsg));
+          toast.error({ title: "Oops", message: errorMsg }) 
       }
   }
 };
@@ -68,6 +72,7 @@ export const fetchMovie = (movieId) => {
       catch(error) {
           const errorMsg = error.message;
           dispatch(fetchMovieError(errorMsg));
+          toast.error({ title: "Oops", message: errorMsg }) 
       }
   }
 };
