@@ -1,7 +1,7 @@
 import iziToast from 'izitoast';
 
 iziToast.settings({
-    timeout: 6000,
+    timeout: 5000,
     progressBarColor: 'green',
     transitionIn: "flipInX",
     progressBarEasing: 'linear'
