@@ -5,7 +5,7 @@ import { Header, Spinner } from '../../common';
 import { connect } from 'react-redux';
 import { movieActions } from '../../../actions';
 import { bindActionCreators } from 'redux';
-import { IMGURL } from '../../../APIKEY';
+import { IMGURL, NA_IMG } from '../../../APIKEY';
 import ShowMovie from '../../common/MobMovie';
 
 
@@ -50,7 +50,7 @@ export class MovieDetails extends Component {
                              </div>
                              <div className="container_inner_top">
                                 <div className="img_container">
-                                    <img src={ poster_path == null ? null : `${IMGURL}${poster_path} `} alt="HI"/>
+                                    <img src={ poster_path == null ? `${NA_IMG}` : `${IMGURL}${poster_path} `} alt="HI"/>
                                  </div>        
                                 
                                  <div className="container_details">

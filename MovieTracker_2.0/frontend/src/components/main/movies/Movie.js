@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import { IMGURL } from '../../../APIKEY';
+import { IMGURL, NA_IMG } from '../../../APIKEY';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { favoriteActions } from '../../../actions';
@@ -31,11 +31,10 @@ export class Movie extends Component {
                 
                     <div className="card_item">
                         <div className="card_top">
-                            <img src={ poster_path == null ? null : `${IMGURL}${poster_path} `} alt="Movie Poster"/>
+                            <img src={ poster_path == null ? `${NA_IMG}` : `${IMGURL}${poster_path} `} alt="Movie Poster"/>
                         
                             <div className="card_info">                           
-                                {/* <i className="fas fa-plus"></i> */}
-                                {/* <i className="fas fa-check-circle"></i>  */}               
+                                            
                                 
                                 <i className={` ${ movieIndex > -1 ? "fas" : "far"}  fa-heart `} onClick={ this.toggleFavorites }></i>
                                 

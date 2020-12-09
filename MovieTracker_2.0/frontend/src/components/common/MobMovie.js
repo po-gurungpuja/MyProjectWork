@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { IMGURL } from '../../APIKEY';
+import { IMGURL, NA_IMG } from '../../APIKEY';
 import { Link } from 'react-router-dom';
 import * as routes from '../../constants/routes';
 
@@ -21,7 +21,7 @@ class ShowMovie extends Component {
                 
                 <div className="intra_container">        
                     <div className="cover-photo">
-                        <img src={ poster_path == null ? null : `${IMGURL}${poster_path} `} alt="PIC" className="profile"/>
+                        <img src={ poster_path == null ? `${NA_IMG}` : `${IMGURL}${poster_path} `} alt="PIC" className="profile"/>
                                   
                     </div>
                     <div className="movie-name">
